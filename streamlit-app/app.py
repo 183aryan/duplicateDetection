@@ -6,9 +6,6 @@ model = pickle.load(open('model.pkl','rb'))
 
 # to place image in center
 
-st.image('duplicatedetect.png', width=700)
-# st.image('duplicatedetect.png', width = 700)
-
 st.title('Duplicate Detection')
 # st.header('Duplicate Question Pairs')
 
