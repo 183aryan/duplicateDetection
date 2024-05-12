@@ -4,3 +4,7 @@ fuzzywuzzy
 distance
 bs4
 nltk
+easyocr
+matplotlib
+opencv-python-headless
+numpy
