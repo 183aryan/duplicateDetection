@@ -27,6 +27,7 @@ def process_image_input(uploaded_file):
     text_ = reader.readtext(img)
     detected_text = [t[1] for t in text_]
     return detected_text
+  
 
 # Create a Streamlit app
 st.set_page_config(layout="wide")
